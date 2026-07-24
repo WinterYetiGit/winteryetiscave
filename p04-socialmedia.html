@@ -1,0 +1,119 @@
+<!-- WinterYeti's Cave Homepage version 1.0 -->
+<!-- Updated: 7/24/26 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WinterYeti's Cave</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Additional CSS formatting -->
+<link href="styles-default.css" rel="stylesheet">
+</head>
+<body class="general-body" style="background-color:lightskyblue;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" style="font-weight:bold">WinterYeti's Cave</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stuff I Do
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="p01-writing-content.html">Writing and Content Delivery</a>
+          <a class="dropdown-item" href="p02-webdesign.html">Web Design</a>
+          <a class="dropdown-item" href="p03-programming.html">Programming</a>
+          <a class="dropdown-item" href="p04-socialmedia.html">Social Media Marketing</a>
+          <!--
+          <a class="dropdown-item" href="p05-communitymanager.html">Community Manager</a>
+          <a class="dropdown-item" href="p06-graphicart.html">Digital Graphic Art & Illustration</a> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="p07-about-me.html">About Me - TBD</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="p08-contact.html">Contact - TBD</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
+<div style="max-width: 450px; margin: 20px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> <!-- Inline styles for the shadow box -->
+    <img class="yeti-logo" src="images/yeti-logo.png" alt="Shadow Box Image" style="display: block; width: 100%; border: 1px solid #333; border-radius: 8px;"> <!-- Inline styles for the image -->
+</div>
+
+<div class="container mt-4">
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Social Media Marketing
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>text
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Digital Marketing Strategies
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+            <p>text
+            </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Web Analytics and SEO
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+              <p>text
+              </p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+  </div>
+</div>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
